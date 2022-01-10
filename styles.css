@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    background: lightblue;
+}
+
+h1{
+    font-size: 75px;
+}
+
+/*p{
+    position: relative;
+    width: 350px;
+    height: 100px;
+    display: inline-block;
+    top:201px
+} */
+
+.help{
+    position: relative;
+    top: 200px;
+    left: 150px;
+    display: inline-block;
+    margin-left: 350px;
+}
+
+header{
+    height: 187px;
+    top: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    z-index: 5;
+    background-color: aqua;
+    display: inline-block;
+    width: 100%;
+    background: url(https://m.media-amazon.com/images/S/aplus-media/vc/b04912e5-0797-4043-a4bf-ce5933ad9050.__CR0,0,970,300_PT0_SX970_V1___.jpg);
+}
+
+nav{
+    position: absolute;
+    top: 187px;
+    height: 150%;
+    width: 250px;
+    left: 0px;
+    background-color: bisque;
+    border: black solid 2px;
+}
+
+.picture{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-size: 350px 350px;
+    display: inline-block;
+    border: 1px solid black;
+    left: 350px;
+    top: 250px;
+    display: inline-block;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.Sign_up{
+    position: fixed;
+    right: 10px;
+    background-color: aqua;
+    padding: 20px 20px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 150px;
+    font-size: large;
+    vertical-align: middle;
+    color: white;
+}
+
+.Sign_in{
+    position: fixed;
+    right: 10px;
+    top: 15px;
+    padding: 20px 20px;
+    background-color: red;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 150px;
+    font-size: large;
+    vertical-align: middle;
+    color: white;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+ 
+   .cancelbtn, 
+.signupbtn {
+    width: 100%;
+}
+}
+.Homelink{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.signinbtn {
+  width: 50%;
+}
+
+.toptext{
+    position: relative;
+    display: inline-block;
+    top: 200px;
+    left: 275px;
+    z-index: 1;
+    margin-right: 250px;
+    height: 150px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: bold;
+}
+
+.godinfo{
+  position: absolute;
+  top: 350px;
+  left: 275px;
+  margin: 10px 25px;
+}
+
+.godtitle{
+  position: relative;
+  top: 250px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.godimg{
+  position: relative;
+  top: 187px;
+  size: 150px 250px;
+}
